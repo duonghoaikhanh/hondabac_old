@@ -1,0 +1,120 @@
+[17-May-2015 22:20:05 Asia/Bangkok] PHP Fatal error:  Cannot redeclare class ControllerModulepavproducts in /home/hondabac/public_html/demo/catalog/controller/module/pavproducttab.php on line 127
+[17-May-2015 22:20:05 Asia/Bangkok] PHP Fatal error:  Cannot redeclare class ControllerModulepavproducts in /home/hondabac/public_html/demo/catalog/controller/module/pavproducttab.php on line 127
+[17-May-2015 22:20:05 Asia/Bangkok] PHP Fatal error:  Cannot redeclare class ControllerModulepavproducts in /home/hondabac/public_html/demo/catalog/controller/module/pavproducttab.php on line 127
+[12-Apr-2016 05:40:17 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'waiting for initial communication packet', system error: 95 in /home/hondabac/public_html/demo/system/database/mysql.php on line 6
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_demo@localhost in /home/hondabac/public_html/demo/system/database/mysql.php on line 7
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 10
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_demo in /home/hondabac/public_html/demo/system/database/mysql.php on line 11
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 14
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 15
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 16
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 17
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 52
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 61
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/hondabac/public_html/demo/index.php on line 61
+[12-Apr-2016 05:40:18 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 69
+[12-Apr-2016 05:40:39 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/hondabac/public_html/demo/index.php on line 103
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/hondabac/public_html/demo/system/database/mysql.php on line 6
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_demo@localhost in /home/hondabac/public_html/demo/system/database/mysql.php on line 7
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 10
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_demo in /home/hondabac/public_html/demo/system/database/mysql.php on line 11
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 14
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 15
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 16
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 17
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 52
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 61
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/hondabac/public_html/demo/index.php on line 61
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 69
+[12-Apr-2016 06:41:10 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/hondabac/public_html/demo/index.php on line 103
+[18-Apr-2016 11:48:17 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/hondabac/public_html/demo/system/database/mysql.php on line 6
+[18-Apr-2016 11:48:19 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_demo@localhost in /home/hondabac/public_html/demo/system/database/mysql.php on line 7
+[18-Apr-2016 11:48:19 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 10
+[18-Apr-2016 11:48:19 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_demo in /home/hondabac/public_html/demo/system/database/mysql.php on line 11
+[18-Apr-2016 11:48:19 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 14
+[18-Apr-2016 11:48:19 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 15
+[18-Apr-2016 11:48:19 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 16
+[18-Apr-2016 11:48:19 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 17
+[18-Apr-2016 11:48:21 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 52
+[18-Apr-2016 11:48:21 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:48:21 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:48:21 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 69
+[18-Apr-2016 11:48:30 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/hondabac/public_html/demo/system/database/mysql.php on line 6
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_demo@localhost in /home/hondabac/public_html/demo/system/database/mysql.php on line 7
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 10
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_demo in /home/hondabac/public_html/demo/system/database/mysql.php on line 11
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 14
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 15
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 16
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 17
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 52
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:48:31 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 69
+[18-Apr-2016 11:48:35 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/hondabac/public_html/demo/index.php on line 103
+[18-Apr-2016 11:48:35 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/hondabac/public_html/demo/index.php on line 103
+[18-Apr-2016 11:48:39 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/hondabac/public_html/demo/system/database/mysql.php on line 6
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_demo@localhost in /home/hondabac/public_html/demo/system/database/mysql.php on line 7
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 10
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_demo in /home/hondabac/public_html/demo/system/database/mysql.php on line 11
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 14
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 15
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 16
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 17
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 52
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:48:40 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 69
+[18-Apr-2016 11:48:47 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/hondabac/public_html/demo/index.php on line 103
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/hondabac/public_html/demo/system/database/mysql.php on line 6
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_demo@localhost in /home/hondabac/public_html/demo/system/database/mysql.php on line 7
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 10
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_demo in /home/hondabac/public_html/demo/system/database/mysql.php on line 11
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 14
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 15
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 16
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 17
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 52
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:48:56 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 69
+[18-Apr-2016 11:48:59 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/hondabac/public_html/demo/index.php on line 103
+[18-Apr-2016 11:49:17 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/hondabac/public_html/demo/system/database/mysql.php on line 6
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_demo@localhost in /home/hondabac/public_html/demo/system/database/mysql.php on line 7
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 10
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_demo in /home/hondabac/public_html/demo/system/database/mysql.php on line 11
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 14
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 15
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 16
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 17
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 52
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 69
+[18-Apr-2016 11:49:18 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/hondabac/public_html/demo/index.php on line 103
+[18-Apr-2016 11:49:42 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/hondabac/public_html/demo/system/database/mysql.php on line 6
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_demo@localhost in /home/hondabac/public_html/demo/system/database/mysql.php on line 7
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 10
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_demo in /home/hondabac/public_html/demo/system/database/mysql.php on line 11
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 14
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 15
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 16
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 17
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 52
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:49:44 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 69
+[18-Apr-2016 11:49:45 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/hondabac/public_html/demo/index.php on line 103
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/hondabac/public_html/demo/system/database/mysql.php on line 6
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_demo@localhost in /home/hondabac/public_html/demo/system/database/mysql.php on line 7
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 10
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_demo in /home/hondabac/public_html/demo/system/database/mysql.php on line 11
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 14
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 15
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 16
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/demo/system/database/mysql.php on line 17
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 52
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/hondabac/public_html/demo/index.php on line 61
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/hondabac/public_html/demo/index.php on line 69
+[18-Apr-2016 11:49:56 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/hondabac/public_html/demo/index.php on line 103

@@ -1,0 +1,141 @@
+<modification>
+	
+	<id>Filter by Price Module SEO</id>
+	<version>151.2</version>
+	<vqmver>1.2.3</vqmver>
+	<author>Clear Thinking, LLC</author>
+	<email>johnathan@getclearthinking.com</email>
+	<website>http://www.getclearthinking.com</website>
+	
+	<file name="catalog/controller/module/price.php">
+		<operation error="skip">
+			<search position="replace"><![CDATA[
+				, 'NONSSL', false
+			]]></search>
+			<add><![CDATA[]]></add>
+		</operation>
+	</file>
+	
+	<file name="catalog/controller/product/price.php">
+		<operation error="skip">
+			<search position="replace"><![CDATA[
+				, 'NONSSL', false
+			]]></search>
+			<add><![CDATA[]]></add>
+		</operation>
+	</file>
+	
+	<file name="catalog/controller/common/seo_url.php">
+		<operation error="skip">
+			<search position="before" offset="1"><![CDATA[
+				$this->request->get['route'] = 'error/not_found';
+			]]></search>
+			<add><![CDATA[
+				} elseif (strpos($part, 'price:') === 0) {
+					$range = explode(':', $part);
+					$this->request->get['range'] = $range[1];
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[
+				$this->request->get['route'] = 'product/product';
+			]]></search>
+			<add><![CDATA[
+				} elseif (isset($this->request->get['range'])) {
+					$this->request->get['route'] = 'product/price';
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after" index="2" offset="1"><![CDATA[
+				unset($data[$key]);
+			]]></search>
+			<add><![CDATA[
+				elseif ($key == 'range') {
+					$url .= '/price:' . $value;
+					unset($data[$key]);
+				}
+			]]></add>
+		</operation>
+	</file>
+	
+	<file name="catalog/model/tool/seo_url.php">
+		<operation error="skip">
+			<search position="after" index="2" offset="1"><![CDATA[
+				unset($data[$key]);
+			]]></search>
+			<add><![CDATA[
+				elseif ($key == 'range') {
+					$url .= '/price:' . $value;
+					unset($data[$key]);
+				}
+			]]></add>
+		</operation>
+	</file>
+	
+	<file name="catalog/controller/product/product.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[
+				$this->load->model('catalog/product');
+			]]></search>
+			<add><![CDATA[
+				if (isset($this->request->get['range'])) {
+					$this->language->load('module/price');
+					
+					$range = explode('-', $this->request->get['range']);
+					if ((float)$range[0] == 0) {
+						$range_text = sprintf($this->language->get('filterbyprice_bottom'), $this->currency->format($range[1]));
+					} elseif (!empty($range[1])) {
+						$range_text = sprintf($this->language->get('filterbyprice_top'), $this->currency->format($range[0]));
+					} else {
+						$range_text = sprintf($this->language->get('filterbyprice_bottom'), $this->currency->format($range[0]), $this->currency->format($range[1]));
+					}
+					
+					$url_args = array(
+						'path',
+						'manufacturer_id',
+						'keyword',
+						'description',
+						'model',
+						'category_id',
+						'filter_name',
+						'filter_tag',
+						'filter_description',
+						'filter_category_id',
+						'filter_sub_category',
+						'range'
+					);
+					
+					$range_url = '';
+					foreach ($url_args as $arg) {
+						$range_url .= (!empty($this->request->get[$arg])) ? '&' . $arg . '=' . $this->request->get[$arg] : '';
+					}
+					
+					if (!defined('VERSION') || VERSION < 1.5) {
+						$this->document->breadcrumbs[] = array(
+							'href'		=> $this->model_tool_seo_url->rewrite(HTTP_SERVER . 'index.php?route=product/price' . $range_url),
+							'text'      => $range_text,
+							'separator' => $this->language->get('text_separator')
+						);
+					} else {
+						$this->data['breadcrumbs'][] = array(
+							'href'		=> $this->url->link('product/price', $range_url),
+							'text'      => $range_text,
+							'separator' => $this->language->get('text_separator')
+						);
+					}
+				}
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="before" offset="2"><![CDATA[
+				'text'      => $product_info['name'],
+			]]></search>
+			<add><![CDATA[
+				if (isset($this->request->get['range'])) {
+					$url .= '&range=' . $this->request->get['range'];
+				}
+			]]></add>
+		</operation>
+	</file>
+	
+</modification>

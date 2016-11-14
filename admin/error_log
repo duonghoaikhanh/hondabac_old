@@ -1,0 +1,13 @@
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (11) in /home/hondabac/public_html/system/database/mysql.php on line 6
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Notice:  Error: Could not make a database link using hondabac_test@localhost in /home/hondabac/public_html/system/database/mysql.php on line 7
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/system/database/mysql.php on line 10
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Notice:  Error: Could not connect to database hondabac_test in /home/hondabac/public_html/system/database/mysql.php on line 11
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/system/database/mysql.php on line 14
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/system/database/mysql.php on line 15
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/system/database/mysql.php on line 16
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/system/database/mysql.php on line 17
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/hondabac/public_html/system/database/mysql.php on line 21
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in /home/hondabac/public_html/system/database/mysql.php on line 49
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in /home/hondabac/public_html/system/database/mysql.php on line 49
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Notice:  Error: <br />Error No: <br />SELECT * FROM hdbsetting WHERE store_id = '0' in /home/hondabac/public_html/system/database/mysql.php on line 49
+[17-Apr-2016 06:53:07 Asia/Bangkok] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/hondabac/public_html/system/database/mysql.php on line 67
